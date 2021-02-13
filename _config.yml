@@ -1,0 +1,32 @@
+# Setup
+url: "https://kisanagstore.com"
+permalink: pretty
+
+#site-data
+sitename: "KISAN AGRICULTURE STORE"
+
+#sitelinks
+main: "https://vipkisan.in"
+pay: "https://pay.vipkisan.in/"
+blog: "https://blog.vipkisan.in/"
+pitch: "https://pitch.vipkisan.in/"
+contact: "https://contact.vipkisan.in/"
+help: "https://help.vipkisan.in/"
+legal: "https://legal.vipkisan.in/"
+
+#social
+twitter: "https://twitter.com/vipkisan"
+facebook: "https://facebook.com/vipkisan"
+instagram: "https://instagram.com/vipkisan"
+youtube: "https://www.youtube.com/channel/UChax6VoSZb3T-tozMbSTq7A"
+linkedin: "https://linkedin.com/company/vipkisan"
+playstore: "https://play.google.com/store/apps/details?id=com.ksapps.viptractor"
+
+#newsletter
+action: "https://codebulbs-newsletter.herokuapp.com/subscription/form"
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

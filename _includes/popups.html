@@ -1,0 +1,69 @@
+<div class="modal fade" id="navShow" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-light">
+            <div class="modal-body">
+                <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mt-5 mb-3" href="{{ site.url }}/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mb-3" href="{{ site.url }}/about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mb-3" href="{{ site.url }}/partner-with-us/">Partner With Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mb-3" href="{{ site.blog }}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mb-3" href="{{ site.contact }}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mb-3" href="{{ site.playstore }}" target="_blank" rel="noopener">
+                            <i class="fas fa-google-play"></i> Google Play
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-dark border-radius rounded-pill mb-3" data-bs-toggle="modal" data-bs-target="#appStoreNotice">
+                            <i class="fas fa-app-store-ios"></i> App Store
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="useService" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-gradient">
+            <div class="modal-header">
+                <h5 class="modal-title text-primary"><i class="fas fa-cogs"></i> Services</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="display-6 text-center fw-bold">Use this service on VIP KISAN app
+                    <a class="btn btn-dark btn-lg border-radius rounded-pill my-3" href="{{ site.playstore }}" target="_blank" rel="noopener">
+                        <i class="fas fa-google-play"></i> Google Play
+                    </a>
+                    <button class="btn btn-dark btn-lg border-radius rounded-pill my-3" data-bs-toggle="modal" data-bs-target="#appStoreNotice">
+                        <i class="fas fa-app-store-ios"></i> App Store
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="appStoreNotice" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-gradient">
+            <div class="modal-header">
+                <h5 class="modal-title text-primary"><i class="fas fa-app-store-ios"></i> App Store Notice</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="display-5 fw-bold">Coming Soon to the App Store</div>
+            </div>
+        </div>
+    </div>
+</div>
